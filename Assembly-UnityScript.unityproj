@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9F95102A-628F-22D5-B025-0C534C0F7DE6}</ProjectGuid>
+	<ProjectGuid>{B8F3340E-1511-8E8E-EAC7-737DE82E31FF}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerMovement.js" />
+     <Compile Include="Assets\Scripts\Click To Transition.js" />
+     <Compile Include="Assets\Scripts\MouseCursor.js" />
+     <Compile Include="Assets\Scripts\PlayerMovement.js" />
+     <Compile Include="Assets\Scripts\SmoothCameraMovement.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
