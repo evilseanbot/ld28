@@ -56,7 +56,8 @@ function OnMouseDown() {
         step++;
     } else {
         if (path == 1) {
-           // Play ending.
+           Destroy(GameObject.Find("ModeState"));
+           Application.LoadLevel("Ending");
         }
     
         Destroy(gameObject);

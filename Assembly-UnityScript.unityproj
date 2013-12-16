@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\ClickToOverview.js" />
      <Compile Include="Assets\Scripts\CorpseLookDialogBox.js" />
      <Compile Include="Assets\Scripts\DialogBox.js" />
+     <Compile Include="Assets\Scripts\EndingSlideshowDialog.js" />
      <Compile Include="Assets\Scripts\HoverText.js" />
      <Compile Include="Assets\Scripts\IntroMovieDialogBox.js" />
      <Compile Include="Assets\Scripts\Mode.js" />

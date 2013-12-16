@@ -52,6 +52,7 @@ Assets/Scripts/ClickToOpen.js
 Assets/Scripts/ClickToOverview.js
 Assets/Scripts/CorpseLookDialogBox.js
 Assets/Scripts/DialogBox.js
+Assets/Scripts/EndingSlideshowDialog.js
 Assets/Scripts/HoverText.js
 Assets/Scripts/IntroMovieDialogBox.js
 Assets/Scripts/Mode.js

@@ -8,6 +8,7 @@ var fadeTimeElapsed: float = 0;
 var switchingNewImage: boolean = false;
 
 var dialogBox: GameObject;
+var dialogScriptName: String = "IntroMovieDialogBox";
 
 function Awake() {
     startFadeIn();
@@ -34,7 +35,7 @@ function Update() {
                     isFadingIn = false;
                     isFading = false;
                     createdDialogBox = Instantiate(dialogBox, new Vector3(0, -2.5, -9.5), transform.rotation);                
-                    createdDialogBox.GetComponent("IntroMovieDialogBox").step = imageCounter;
+                    createdDialogBox.GetComponent(dialogScriptName).step = imageCounter;
                 } else {
                     isFadingIn = true;
                     GetComponent("SpriteRenderer").sprite = images[imageCounter];                    
@@ -44,7 +45,7 @@ function Update() {
                 isFading = false;
                 isFadingIn = false;
                 createdDialogBox = Instantiate(dialogBox, new Vector3(0, -2.5, -9.5), transform.rotation);                
-                createdDialogBox.GetComponent("IntroMovieDialogBox").step = imageCounter;
+                createdDialogBox.GetComponent(dialogScriptName).step = imageCounter;
             }
         }        
     }

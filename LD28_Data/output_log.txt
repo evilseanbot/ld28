@@ -6,99 +6,127 @@ Direct3D:
     Vendor:   Intel
     VRAM:     941 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0
+FMOD failed to initialize ... A call to a standard soundcard driver failed, which could possibly mean a bug in the driver or resources were missing or exhausted. 
+ 
+(Filename:  Line: 198)
+
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.140 seconds
+- Completed reload, in  0.115 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Boo.Lang.dll (this message is harmless)
-UnloadTime: 0.613895 ms
+An invalid object handle was used. 
+ 
+(Filename:  Line: 319)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 319)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 319)
+
+An invalid object handle was used. 
+ 
+(Filename:  Line: 319)
+
+UnloadTime: 0.479184 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 214.
-Total: 2.892427 ms (FindLiveObjects: 0.034254 ms CreateObjectMapping: 0.029636 ms MarkObjects: 0.278273 ms  DeleteObjects: 0.010391 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 216.
+Total: 1.223556 ms (FindLiveObjects: 0.027711 ms CreateObjectMapping: 0.022323 ms MarkObjects: 0.225928 ms  DeleteObjects: 0.009237 ms)
 
 Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityScript.Lang.dll (this message is harmless)
 Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\System.Core.dll (this message is harmless)
-UnloadTime: 0.444929 ms
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 190.
-Total: 2.285075 ms (FindLiveObjects: 0.018089 ms CreateObjectMapping: 0.022323 ms MarkObjects: 0.295208 ms  DeleteObjects: 0.146257 ms)
-
-UnloadTime: 0.463404 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 217.
-Total: 3.107579 ms (FindLiveObjects: 0.022708 ms CreateObjectMapping: 0.030021 ms MarkObjects: 0.436846 ms  DeleteObjects: 0.020783 ms)
-
-UnloadTime: 0.486497 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 190.
-Total: 2.857787 ms (FindLiveObjects: 0.034254 ms CreateObjectMapping: 0.023093 ms MarkObjects: 0.307524 ms  DeleteObjects: 0.134710 ms)
-
-UnloadTime: 0.484572 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 174.
-Total: 1.932518 ms (FindLiveObjects: 0.017319 ms CreateObjectMapping: 0.022323 ms MarkObjects: 0.290204 ms  DeleteObjects: 0.015395 ms)
-
-UnloadTime: 0.420296 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 190.
-Total: 1.757009 ms (FindLiveObjects: 0.015780 ms CreateObjectMapping: 0.020399 ms MarkObjects: 0.271345 ms  DeleteObjects: 0.015010 ms)
-
-UnloadTime: 0.415678 ms
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 203.
-Total: 1.790880 ms (FindLiveObjects: 0.016935 ms CreateObjectMapping: 0.021938 ms MarkObjects: 0.274039 ms  DeleteObjects: 0.014625 ms)
-
 UnloadTime: 0.413753 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 190.
-Total: 2.046445 ms (FindLiveObjects: 0.016165 ms CreateObjectMapping: 0.021168 ms MarkObjects: 0.273269 ms  DeleteObjects: 0.081211 ms)
-
-UnloadTime: 0.423760 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 197.
-Total: 2.108411 ms (FindLiveObjects: 0.016550 ms CreateObjectMapping: 0.021553 ms MarkObjects: 0.275964 ms  DeleteObjects: 0.016165 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 192.
+Total: 1.262429 ms (FindLiveObjects: 0.016550 ms CreateObjectMapping: 0.021168 ms MarkObjects: 0.284431 ms  DeleteObjects: 0.142793 ms)
 
-UnloadTime: 0.411444 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 190.
-Total: 2.086473 ms (FindLiveObjects: 0.016165 ms CreateObjectMapping: 0.021553 ms MarkObjects: 0.277118 ms  DeleteObjects: 0.089678 ms)
-
-UnloadTime: 0.414523 ms
+UnloadTime: 0.433767 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 203.
-Total: 1.995639 ms (FindLiveObjects: 0.016165 ms CreateObjectMapping: 0.021168 ms MarkObjects: 0.281352 ms  DeleteObjects: 0.014240 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 199.
+Total: 1.129258 ms (FindLiveObjects: 0.015780 ms CreateObjectMapping: 0.020783 ms MarkObjects: 0.282122 ms  DeleteObjects: 0.015010 ms)
 
-UnloadTime: 0.616589 ms
+UnloadTime: 0.611970 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 196.
-Total: 3.192254 ms (FindLiveObjects: 0.024632 ms CreateObjectMapping: 0.028481 ms MarkObjects: 0.333312 ms  DeleteObjects: 0.115466 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 192.
+Total: 2.057221 ms (FindLiveObjects: 0.021553 ms CreateObjectMapping: 0.033485 ms MarkObjects: 0.410289 ms  DeleteObjects: 0.134710 ms)
 
-UnloadTime: 0.772468 ms
+UnloadTime: 0.452242 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 205.
+Total: 1.990251 ms (FindLiveObjects: 0.023478 ms CreateObjectMapping: 0.031945 ms MarkObjects: 0.406055 ms  DeleteObjects: 0.021938 ms)
+
+UnloadTime: 0.455706 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 223.
-Total: 2.768878 ms (FindLiveObjects: 0.025017 ms CreateObjectMapping: 0.040028 ms MarkObjects: 0.536147 ms  DeleteObjects: 0.023863 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 198.
+Total: 1.452564 ms (FindLiveObjects: 0.018859 ms CreateObjectMapping: 0.028481 ms MarkObjects: 0.349862 ms  DeleteObjects: 0.106613 ms)
 
-UnloadTime: 0.446854 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+UnloadTime: 0.427609 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 196.
-Total: 2.412857 ms (FindLiveObjects: 0.018089 ms CreateObjectMapping: 0.024247 ms MarkObjects: 0.305600 ms  DeleteObjects: 0.117390 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 205.
+Total: 1.216243 ms (FindLiveObjects: 0.015780 ms CreateObjectMapping: 0.020783 ms MarkObjects: 0.287125 ms  DeleteObjects: 0.014240 ms)
+
+UnloadTime: 0.418757 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 200.
+Total: 1.291681 ms (FindLiveObjects: 0.042337 ms CreateObjectMapping: 0.023478 ms MarkObjects: 0.297132 ms  DeleteObjects: 0.038488 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+at SlideShow.advance () <0x00038>
+at (wrapper dynamic-method) SlideShow.SlideShow$advance$ (object,object[]) <0x00030>
+at Boo.Lang.Runtime.RuntimeServices.Invoke (object,string,object[]) <0x000a0>
+at UnityScript.Lang.UnityRuntimeServices.Invoke (object,string,object[],System.Type) <0x0002e>
+at EndingSlideshowDialog.OnMouseDown () <0x00055>
+
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UnityEngine.HitInfo:SendMessage(String)
+UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo)
+UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32, Int32)
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SlideShow.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SlideShow.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SlideShow.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SlideShow.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SlideShow.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at SlideShow.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
 

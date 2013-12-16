@@ -37,12 +37,7 @@
 -define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
 -define:UNITY_4_3_0
 -define:UNITY_4_3
--define:ENABLE_PROFILER
--define:UNITY_EDITOR
--define:UNITY_EDITOR_WIN
--r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
--r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
--i:UnityEditor
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WindowsStandalonePlayer/Managed/UnityEngine.dll"
 Assets/Scripts/BroGhostDialog.js
 Assets/Scripts/BucketListItems.js
 "Assets/Scripts/Click To Transition.js"
@@ -52,6 +47,7 @@ Assets/Scripts/ClickToOpen.js
 Assets/Scripts/ClickToOverview.js
 Assets/Scripts/CorpseLookDialogBox.js
 Assets/Scripts/DialogBox.js
+Assets/Scripts/EndingSlideshowDialog.js
 Assets/Scripts/HoverText.js
 Assets/Scripts/IntroMovieDialogBox.js
 Assets/Scripts/Mode.js
