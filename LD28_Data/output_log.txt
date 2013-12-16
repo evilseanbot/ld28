@@ -1,0 +1,32 @@
+Initialize engine version: 4.3.0f4 (e01000627d60)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [igdumdx32.dll 8.15.10.2622]
+    Renderer: Intel(R) HD Graphics
+    Vendor:   Intel
+    VRAM:     941 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.222 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\System.Core.dll (this message is harmless)
+UnloadTime: 0.465325 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 113.
+Total: 1.310531 ms (FindLiveObjects: 0.020013 ms CreateObjectMapping: 0.015780 ms MarkObjects: 0.203603 ms  DeleteObjects: 0.032715 ms)
+
+UnloadTime: 0.445696 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 135.
+Total: 11.504193 ms (FindLiveObjects: 0.013086 ms CreateObjectMapping: 0.016934 ms MarkObjects: 0.308292 ms  DeleteObjects: 10.008917 ms)
+
