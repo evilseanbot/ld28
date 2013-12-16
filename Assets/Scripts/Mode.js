@@ -1,5 +1,6 @@
 ﻿var hasIntroMovieBeenWatched: boolean = false;
 var gotMPDGIdea: boolean = false;
+var noMoreDialogBoxes: boolean = false;
 
 function Awake() {
     DontDestroyOnLoad (transform.gameObject);
