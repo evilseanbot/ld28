@@ -1,8 +1,5 @@
 ﻿var step = 0;
 
-function Awake () {
-}
-
 function Update() {
     if (GameObject.Find("DialogText")) {
 	    if(GameObject.Find("DialogText").GetComponent("TextMesh")) {
@@ -17,15 +14,19 @@ function Update() {
 		    } else if (step == 3) {
 		        text = "Alright, you can have one. Spill it.";    
 		    } else if (step == 4) {
-		        text = "The End";    
-		    }
+		        text = "";
+		        transform.position.z = 10;
+		    } else if (step == 5) {
+		        text = "";
+		        transform.position.z = 10;
+		    } 
 		    GameObject.Find("DialogText").GetComponent("TextMesh").text = text;    
 		}
 	}
 }
 
 function OnMouseDown() {
-    if (step < 4) {
+    if (step < 5) {
 	    slideshow = GameObject.Find("Slideshow");
 	    slideshow.GetComponent("SlideShow").advance();
 	    Destroy(gameObject);
