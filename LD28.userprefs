@@ -1,13 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ClickToCloseBS.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SlideShow.js">
     <Files>
       <File FileName="Assets\Scripts\Click To Transition.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MouseCursor.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ClickToOverview.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Mode.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ClickToOpen.js" Line="10" Column="1" />
-      <File FileName="Assets\Scripts\ClickToCloseBS.js" Line="7" Column="46" />
+      <File FileName="Assets\Scripts\Mode.js" Line="11" Column="48" />
+      <File FileName="Assets\Scripts\ClickToOpen.js" Line="10" Column="105" />
+      <File FileName="Assets\Scripts\ClickToCloseBS.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SlideShow.js" Line="44" Column="53" />
+      <File FileName="Assets\Scripts\Permanent.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MoveOffInitialScene.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

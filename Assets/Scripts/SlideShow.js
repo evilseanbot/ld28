@@ -7,11 +7,15 @@ var fadeTime: float = 2;
 var fadeTimeElapsed: float = 0;
 var switchingNewImage: boolean = false;
 
+var dialogBox: GameObject;
+
 function Awake() {
     startFadeIn();
 }
 
 function Update() {
+   var createdDialogBox;
+
     if (isFading) {
         fadeTimeElapsed += Time.deltaTime;
         
@@ -29,6 +33,8 @@ function Update() {
                 if (isFadingIn) {
                     isFadingIn = false;
                     isFading = false;
+                    createdDialogBox = Instantiate(dialogBox, new Vector3(0, -2.5, -4), transform.rotation);                
+                    createdDialogBox.GetComponent("IntroMovieDialogBox").step = imageCounter;
                 } else {
                     isFadingIn = true;
                     GetComponent("SpriteRenderer").sprite = images[imageCounter];                    
@@ -37,6 +43,8 @@ function Update() {
             } else {
                 isFading = false;
                 isFadingIn = false;
+                createdDialogBox = Instantiate(dialogBox, new Vector3(0, -2.5, -4), transform.rotation);                
+                createdDialogBox.GetComponent("IntroMovieDialogBox").step = imageCounter;
             }
         }        
     }
@@ -44,14 +52,20 @@ function Update() {
 
 function OnMouseDown() {
     if (!isFading) {
-        imageCounter++;
-        if (imageCounter == images.length) {
-            Application.LoadLevel("Overview");
-        } else {
-            fadeSwitchNewImage();
-        }
-        //GetComponent("SpriteRenderer").sprite = images[imageCounter];
+        advance();
     }
+}
+
+function advance() {
+	imageCounter++;
+	if (imageCounter == images.length) {
+	    //Application.LoadLevel("Overview");
+	    GameObject.Find("ModeState").GetComponent("Mode").hasIntroMovieBeenWatched = true;
+	    Destroy(gameObject);
+	} else {
+	    fadeSwitchNewImage();
+	}
+
 }
 
 function startFadeIn() {

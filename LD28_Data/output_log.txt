@@ -11,22 +11,22 @@ Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Un
 Loading C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.222 seconds
+- Completed reload, in  0.303 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\Boo.Lang.dll (this message is harmless)
-Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityScript.Lang.dll (this message is harmless)
-Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\System.Core.dll (this message is harmless)
-UnloadTime: 0.465325 ms
+UnloadTime: 0.555392 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 113.
-Total: 1.310531 ms (FindLiveObjects: 0.020013 ms CreateObjectMapping: 0.015780 ms MarkObjects: 0.203603 ms  DeleteObjects: 0.032715 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 173.
+Total: 2.101099 ms (FindLiveObjects: 0.029251 ms CreateObjectMapping: 0.023863 ms MarkObjects: 0.232086 ms  DeleteObjects: 0.010007 ms)
 
-UnloadTime: 0.445696 ms
+Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Sean\Documents\Game Design\LD28\LD28_Data\Managed\System.Core.dll (this message is harmless)
+UnloadTime: 0.442620 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 135.
-Total: 11.504193 ms (FindLiveObjects: 0.013086 ms CreateObjectMapping: 0.016934 ms MarkObjects: 0.308292 ms  DeleteObjects: 10.008917 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 159.
+Total: 1.950608 ms (FindLiveObjects: 0.018089 ms CreateObjectMapping: 0.021938 ms MarkObjects: 0.278273 ms  DeleteObjects: 0.048880 ms)
 
