@@ -2,21 +2,22 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EndingSlideshowDialog.js">
     <Files>
-      <File FileName="Assets\Scripts\EndingSlideshowDialog.js" Line="12" Column="42" />
+      <File FileName="Assets\Scripts\SlideShow.js" Line="35" Column="40" />
+      <File FileName="Assets\Scripts\EndingSlideshowDialog.js" Line="27" Column="18" />
       <File FileName="Assets\Scripts\Click To Transition.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MouseCursor.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ClickToOverview.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Mode.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ClickToOpen.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ClickToCloseBS.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SlideShow.js" Line="3" Column="1" />
       <File FileName="Assets\Scripts\QuirkyWomanDialogBox.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CorpseLookDialogBox.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\IntroMovieDialogBox.js" Line="24" Column="2" />
+      <File FileName="Assets\Scripts\IntroMovieDialogBox.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BroGhostDialog.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BucketListItems.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\HoverText.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\OutgoingDialogBox.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OutgoingDialogBox.js" Line="59" Column="50" />
+      <File FileName="Assets\Scripts\ClickToCreateDialog.js" Line="4" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

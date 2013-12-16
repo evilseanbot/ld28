@@ -25,7 +25,9 @@ function Update() {
 }
 
 function OnMouseDown() {
-    slideshow = GameObject.Find("Slideshow");
-    slideshow.GetComponent("SlideShow").advance();
-    Destroy(gameObject);
+    if (step < 4) {
+	    slideshow = GameObject.Find("Slideshow");
+	    slideshow.GetComponent("SlideShow").advance();
+	    Destroy(gameObject);
+	}
 }
