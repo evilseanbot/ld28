@@ -2,7 +2,8 @@
  
 var cursorSizeX: int = 32;  // set to width of your cursor texture
 var cursorSizeY: int = 32;  // set to height of your cursor texture
- 
+var hoverText = "";
+  
 static var showOriginal : boolean = true;
  
 function Start(){
@@ -15,6 +16,8 @@ function OnGUI(){
  
     if(showOriginal == true){
         GUI.DrawTexture (Rect(Input.mousePosition.x-cursorSizeX/2 + cursorSizeX/2, (Screen.height-Input.mousePosition.y)-cursorSizeY/2 + cursorSizeY/2, cursorSizeX, cursorSizeY),originalCursor);
+        GUI.Label (Rect(Input.mousePosition.x-cursorSizeX/2 + cursorSizeX/2, ((Screen.height-Input.mousePosition.y)-cursorSizeY/2 + cursorSizeY/2)-10, 100, 100), hoverText);
+        
     }
  
  

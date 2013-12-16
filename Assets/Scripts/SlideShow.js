@@ -33,7 +33,7 @@ function Update() {
                 if (isFadingIn) {
                     isFadingIn = false;
                     isFading = false;
-                    createdDialogBox = Instantiate(dialogBox, new Vector3(0, -2.5, -4), transform.rotation);                
+                    createdDialogBox = Instantiate(dialogBox, new Vector3(0, -2.5, -9.5), transform.rotation);                
                     createdDialogBox.GetComponent("IntroMovieDialogBox").step = imageCounter;
                 } else {
                     isFadingIn = true;
@@ -43,7 +43,7 @@ function Update() {
             } else {
                 isFading = false;
                 isFadingIn = false;
-                createdDialogBox = Instantiate(dialogBox, new Vector3(0, -2.5, -4), transform.rotation);                
+                createdDialogBox = Instantiate(dialogBox, new Vector3(0, -2.5, -9.5), transform.rotation);                
                 createdDialogBox.GetComponent("IntroMovieDialogBox").step = imageCounter;
             }
         }        
