@@ -4,11 +4,14 @@ var numOfSteps = 15;
 
 function Awake() {
     var mode = GameObject.Find("ModeState").GetComponent("Mode");
-    if (mode.gotMPDGIdea) {
-        path = 1;
+	if (!GameObject.Find("BucketList").GetComponent("BucketListItems").haveMicrowaved) {
+        path = 0;
+        numOfSteps = 3;
+    } else if (mode.gotMPDGIdea) {
+        path = 2;
         numOfSteps = 1;
     } else {
-        path = 0;
+        path = 1;
         numOfSteps = 15;
     }
 }
@@ -16,6 +19,14 @@ function Awake() {
 function Update() {
     var text;
     if (path == 0) {
+       if (step == 0) {
+           text = "Am I cool enough to microwave all my cutlery?";
+       } else if (step == 1) {
+           text = "Yeah, I'm cool enough.";
+       } else if (step == 2) {
+           text = "But thats pretty much the limit of my cool.";
+       }
+    }else if (path == 1) {
 	    if (GameObject.Find("DialogText").GetComponent("TextMesh")) {
 		    if (step == 0) {
 		        text = "I wonder what dolphins are like up close.";
@@ -59,14 +70,15 @@ function Update() {
 		    
 		    GameObject.Find("DialogText").GetComponent("TextMesh").text = text;        
 		}
-	} else if (path == 1) {
+	} else if (path == 2) {
         if (GameObject.Find("DialogText").GetComponent("TextMesh")) {	
             text = "Remember bro, Quirky Young Women With Naive \n"+
             "Senses of Wonder. It'll make them do all kinds of \n"+
             "kooky junk";
-            GameObject.Find("DialogText").GetComponent("TextMesh").text = text; 
         }
     }
+    GameObject.Find("DialogText").GetComponent("TextMesh").text = text; 
+    
 }
 
 function OnMouseDown() {
@@ -74,6 +86,8 @@ function OnMouseDown() {
         step++;
     } else {
         if (path == 0) {
+            GameObject.Find("BucketList").GetComponent("BucketListItems").haveMicrowaved = true;        
+        } else if (path == 1) {
             var mode = GameObject.Find("ModeState").GetComponent("Mode");
             mode.gotMPDGIdea = true;
         }

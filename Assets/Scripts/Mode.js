@@ -11,4 +11,8 @@ function Update() {
         Destroy(GameObject.Find("Slideshow"));
         Destroy(GameObject.Find("SlideshowBlack"));        
     }
+    
+    if (GameObject.Find("MPDG(Clone)") && GameObject.Find("QuirkyWoman")) {
+        Destroy(GameObject.Find("QuirkyWoman"));
+    }
 }

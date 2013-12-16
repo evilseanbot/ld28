@@ -11,8 +11,18 @@ function OnMouseDown() {
     var exitBucketList = Instantiate(exitBucketListPF, new Vector3(-0.5, -3, -9), transform.rotation);
        
     var bucketListItems = GetComponent("BucketListItems");
+    
     if (bucketListItems.haveSeenADeadBody) {
         Instantiate(crossOut, new Vector3(-0.32, 1.02, -9), transform.rotation);
+    }
+
+    if (bucketListItems.haveWatchedOz) {
+        Instantiate(crossOut, new Vector3(0.1, 0.3, -9), transform.rotation);
+        Instantiate(crossOut, new Vector3(0.68, -0.27, -9), transform.rotation);        
+    }            
+    
+    if (bucketListItems.haveMicrowaved) {
+        Instantiate(crossOut, new Vector3(-0.65, 1.81, -9), transform.rotation);
     }
     
 }

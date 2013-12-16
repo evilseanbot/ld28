@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\Mode.js" />
      <Compile Include="Assets\Scripts\MouseCursor.js" />
      <Compile Include="Assets\Scripts\MoveOffInitialScene.js" />
+     <Compile Include="Assets\Scripts\OutgoingDialogBox.js" />
      <Compile Include="Assets\Scripts\Permanent.js" />
      <Compile Include="Assets\Scripts\PlayerMovement.js" />
      <Compile Include="Assets\Scripts\QuirkyWomanDialogBox.js" />
