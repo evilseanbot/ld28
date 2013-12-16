@@ -48,8 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Click To Transition.js" />
      <Compile Include="Assets\Scripts\ClickToCloseBS.js" />
+     <Compile Include="Assets\Scripts\ClickToCreateDialog.js" />
      <Compile Include="Assets\Scripts\ClickToOpen.js" />
      <Compile Include="Assets\Scripts\ClickToOverview.js" />
+     <Compile Include="Assets\Scripts\CorpseLookDialogBox.js" />
      <Compile Include="Assets\Scripts\DialogBox.js" />
      <Compile Include="Assets\Scripts\IntroMovieDialogBox.js" />
      <Compile Include="Assets\Scripts\Mode.js" />
