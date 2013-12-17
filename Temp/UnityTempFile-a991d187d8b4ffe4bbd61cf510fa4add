@@ -59,3 +59,6 @@ Assets/Scripts/PlayerMovement.js
 Assets/Scripts/QuirkyWomanDialogBox.js
 Assets/Scripts/SlideShow.js
 Assets/Scripts/SmoothCameraMovement.js
+Assets/randomMove.js
+Assets/swimControl.js
+Assets/takeOffInBoat.js

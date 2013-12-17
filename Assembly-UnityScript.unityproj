@@ -67,6 +67,9 @@
      <Compile Include="Assets\Scripts\QuirkyWomanDialogBox.js" />
      <Compile Include="Assets\Scripts\SlideShow.js" />
      <Compile Include="Assets\Scripts\SmoothCameraMovement.js" />
+     <Compile Include="Assets\randomMove.js" />
+     <Compile Include="Assets\swimControl.js" />
+     <Compile Include="Assets\takeOffInBoat.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

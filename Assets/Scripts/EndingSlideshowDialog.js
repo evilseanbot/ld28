@@ -1,6 +1,7 @@
 ﻿var step = 0;
 var ghostPortrait: Sprite;
 var womanPortrait: Sprite;
+var ocean: AudioClip;
 
 function Update() {
     if (GameObject.Find("DialogText")) {
@@ -22,6 +23,7 @@ function Update() {
 		        portrait = womanPortrait;
 		        GameObject.Find("ModeState").GetComponent("Mode").noMoreDialogBoxes = true;		        
 		    } else if (step == 4) {
+                Destroy(GameObject.Find("MusicPlayer"));		    
 		        text = "";
 		        portrait = ghostPortrait;
 		    } else if (step == 5) {
@@ -36,9 +38,15 @@ function Update() {
 }
 
 function OnMouseDown() {
-    if (step < 5) {
+    if (step > 3) {
+        Destroy(GameObject.Find("Ghost"));
+        Destroy(GameObject.Find("MPDG(Clone)"));
+        Destroy(GameObject.Find("Cursor"));
+        Destroy(GameObject.Find("BucketList"));
+        Application.LoadLevel("dolphinSwim");
+    }
+
 	    slideshow = GameObject.Find("Slideshow");
 	    slideshow.GetComponent("SlideShow").advance();
 	    Destroy(gameObject);
-	}
 }
