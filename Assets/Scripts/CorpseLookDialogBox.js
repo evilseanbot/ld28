@@ -28,6 +28,7 @@ function Update() {
 function OnMouseDown() {
     if (path == 1) {
         GameObject.Find("BucketList").GetComponent("BucketListItems").haveSeenADeadBody = true;
+            GameObject.Find("BucketList").GetComponent("BucketListItems").crossOff("seenADeadBody");                
     }
 
     Destroy(gameObject);

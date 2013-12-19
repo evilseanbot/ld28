@@ -4,7 +4,7 @@ var crossOut: GameObject;
 var smallBL: Sprite;
 var largeBL: Sprite;
 
-function OnMouseDown() {
+function open() {
     GetComponent("SpriteRenderer").sprite = largeBL;
     transform.position.x = 0;
     transform.position.y = 0.5;
@@ -30,5 +30,9 @@ function OnMouseDown() {
         Instantiate(crossOut, new Vector3(-0.52, 0.65, -9), transform.rotation);                
         Instantiate(crossOut, new Vector3(-0.52, -0.05, -9), transform.rotation);                        
     }
-    
+ 
+}
+
+function OnMouseDown() {
+    open();  
 }

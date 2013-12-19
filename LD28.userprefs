@@ -1,9 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\randomMove.js.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BroGhostDialog.js">
     <Files>
-      <File FileName="Assets\swimControl.js" Line="37" Column="2" />
-      <File FileName="Assets\randomMove.js.js" Line="15" Column="9" />
+      <File FileName="Assets\flipBook.js" Line="1" Column="15" />
+      <File FileName="Assets\Scripts\DialogBox.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EndingSlideshowDialog.js" Line="1" Column="1" />
+      <File FileName="Assets\animationPlayer.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\swimControl.js" Line="1" Column="1" />
+      <File FileName="Assets\Prefabs\testPossession.js" Line="8" Column="42" />
+      <File FileName="Assets\Scripts\BroGhostDialog.js" Line="10" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

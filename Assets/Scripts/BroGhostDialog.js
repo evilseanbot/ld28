@@ -6,7 +6,6 @@ var oldmanPortrait: Sprite;
 var broghostPortrait: Sprite;
 var blackPortrait: Sprite;
 
-
 function Awake() {
     var mode = GameObject.Find("ModeState").GetComponent("Mode");
 	if (!GameObject.Find("BucketList").GetComponent("BucketListItems").haveMicrowaved) {
@@ -19,6 +18,13 @@ function Awake() {
         path = 1;
         numOfSteps = 15;
     }
+    
+    if (path == 0) {
+        GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 1.09));
+    } else if (path == 1) {
+        GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 1.09));
+    }
+
 }
 
 function Update() {
@@ -73,6 +79,7 @@ function Update() {
 		        text = "Oh... Sorry. Hey, I'm trying to get people to do\n" +
 		               "cool stuff but they're all a bunch of lazy jerks.";
 		         portrait = ghostPortrait;
+                GameObject.Find("Ghost").GetComponent("Possessor").unpossess(new Vector2(0, 0));	         
 		    } else if (step == 11) {
 		        text = "People are kind of lazy bro. You had a bunch of\n" +
 		                "cool stufff you didn't do when you were alive\n"+
@@ -116,10 +123,14 @@ function OnMouseDown() {
     } else {
         if (path == 0) {
             GameObject.Find("BucketList").GetComponent("BucketListItems").haveMicrowaved = true;        
+            GameObject.Find("BucketList").GetComponent("BucketListItems").crossOff("microwaved");        
+            
+            GameObject.Find("Ghost").GetComponent("Possessor").unpossess(new Vector2(0, 0));            
         } else if (path == 1) {
             var mode = GameObject.Find("ModeState").GetComponent("Mode");
             mode.gotMPDGIdea = true;
         }
+        
         Destroy(gameObject);
     }
 }

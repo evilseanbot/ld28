@@ -12,6 +12,8 @@ function Awake() {
 	    if (!GameObject.Find("MPDG(Clone)")) {
 	        path = 0;
 	        numOfSteps = 2;
+            GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 1.09));
+	        
 	    } else {
 	        path = 1;
 	        numOfSteps = 7;
@@ -56,9 +58,13 @@ function Update() {
 		    } else if (step == 5) {
 		        text = "Now's my chance...";
 		        portrait = ghostPortrait;
+                GameObject.Find("Ghost").transform.position.x = 0;
+                GameObject.Find("Ghost").transform.position.y = 0;		        
+                GameObject.Find("Ghost").GetComponent("Possessor").unpossess(new Vector2(0, 0));         		        
 		    } else if (step == 6) {
 		        text = "I could jump out a window!";
 		        portrait = ghostPortrait;
+                GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 1.09));         		        		        
 		    }
 		}		    
 		GameObject.Find("DialogText").GetComponent("TextMesh").text = text;
@@ -71,6 +77,10 @@ function OnMouseDown() {
     if (step < numOfSteps-1) {
         step++;
     } else {
+        if (path == 0) {
+           GameObject.Find("Ghost").GetComponent("Possessor").unpossess(new Vector2(0, 0));         
+        }
+    
         if (path == 1) {
            Destroy(GameObject.Find("ModeState"));
            Application.LoadLevel("Ending");

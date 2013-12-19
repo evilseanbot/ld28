@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Prefabs\testPossession.js" />
      <Compile Include="Assets\Scripts\BroGhostDialog.js" />
      <Compile Include="Assets\Scripts\BucketListItems.js" />
      <Compile Include="Assets\Scripts\Click To Transition.js" />
@@ -64,12 +65,15 @@
      <Compile Include="Assets\Scripts\OutgoingDialogBox.js" />
      <Compile Include="Assets\Scripts\Permanent.js" />
      <Compile Include="Assets\Scripts\PlayerMovement.js" />
+     <Compile Include="Assets\Scripts\Possessor.js" />
      <Compile Include="Assets\Scripts\QuirkyWomanDialogBox.js" />
      <Compile Include="Assets\Scripts\SlideShow.js" />
      <Compile Include="Assets\Scripts\SmoothCameraMovement.js" />
-     <Compile Include="Assets\randomMove.js" />
-     <Compile Include="Assets\swimControl.js" />
-     <Compile Include="Assets\takeOffInBoat.js" />
+     <Compile Include="Assets\Scripts\randomMove.js" />
+     <Compile Include="Assets\Scripts\swimControl.js" />
+     <Compile Include="Assets\Scripts\takeOffInBoat.js" />
+     <Compile Include="Assets\animationPlayer.js" />
+     <Compile Include="Assets\flipBook.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

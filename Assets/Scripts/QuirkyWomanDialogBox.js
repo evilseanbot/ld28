@@ -7,6 +7,9 @@ var womanPortrait: Sprite;
 var pwomanPortrait: Sprite;
 
 function Awake() {
+    GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 1.09));
+
+
     if (GameObject.Find("ModeState")) {
 	    var mode = GameObject.Find("ModeState").GetComponent("Mode");
 	    
@@ -86,11 +89,18 @@ function OnMouseDown() {
     } else {
         if (path == 0) {
             GameObject.Find("BucketList").GetComponent("BucketListItems").haveWatchedOz = true;            
+            GameObject.Find("BucketList").GetComponent("BucketListItems").crossOff("watchedOz");                    
+            GameObject.Find("Ghost").GetComponent("Possessor").unpossess(new Vector2(0, 0));             
+        }
+        
+        if (path == 1) {
+            GameObject.Find("Ghost").GetComponent("Possessor").unpossess(new Vector2(0, 0));
         }
     
         if (path == 2) {
             Instantiate(MPDG, new Vector3(0, -1, -1.5), transform.rotation); 
         }
+                        
         Destroy(gameObject);
     }    
 }
