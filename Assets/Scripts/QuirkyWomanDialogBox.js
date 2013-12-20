@@ -61,8 +61,8 @@ function Update() {
 			    }
 			} else if (path == 2) {
 		 	    if (step == 0) {
-			        text = "Hey! How about I go inspire my neighbors with my\n." +
-			        "manic revelry?";
+			        text = "Hey! How about I go inspire my neighbors with \n" +
+			        "my manic revelry?";
 			        portrait = ghostPortrait;
 			    } else if (step == 1) {
 			        text = "Why... why would I want to do that?";

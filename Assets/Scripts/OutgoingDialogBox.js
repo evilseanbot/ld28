@@ -12,7 +12,7 @@ function Awake() {
 	    if (!GameObject.Find("MPDG(Clone)")) {
 	        path = 0;
 	        numOfSteps = 2;
-            GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 1.09));
+            GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 0.59));
 	        
 	    } else {
 	        path = 1;
@@ -64,7 +64,7 @@ function Update() {
 		    } else if (step == 6) {
 		        text = "I could jump out a window!";
 		        portrait = ghostPortrait;
-                GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 1.09));         		        		        
+                GameObject.Find("Ghost").GetComponent("Possessor").possess(new Vector2(3.53, 0.59));         		        		        
 		    }
 		}		    
 		GameObject.Find("DialogText").GetComponent("TextMesh").text = text;
