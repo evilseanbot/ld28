@@ -6,6 +6,7 @@ var oldmanPortrait: Sprite;
 var broghostPortrait: Sprite;
 var blackPortrait: Sprite;
 
+
 function Awake() {
     var mode = GameObject.Find("ModeState").GetComponent("Mode");
 	if (!GameObject.Find("BucketList").GetComponent("BucketListItems").haveMicrowaved) {
@@ -131,6 +132,7 @@ function OnMouseDown() {
             mode.gotMPDGIdea = true;
         }
         
+        Destroy(GameObject.Find("PossessionLight(Clone)"));
         Destroy(gameObject);
     }
 }

@@ -98,6 +98,7 @@ function OnMouseDown() {
         }
     
         if (path == 2) {
+            GameObject.Find("Ghost").GetComponent("possessionLight").removePL();
             Instantiate(MPDG, new Vector3(0, -1, -1.5), transform.rotation); 
         }
                         

@@ -69,6 +69,9 @@
      <Compile Include="Assets\Scripts\QuirkyWomanDialogBox.js" />
      <Compile Include="Assets\Scripts\SlideShow.js" />
      <Compile Include="Assets\Scripts\SmoothCameraMovement.js" />
+     <Compile Include="Assets\Scripts\TouchToLoadLevel.js" />
+     <Compile Include="Assets\Scripts\fallControl.js" />
+     <Compile Include="Assets\Scripts\possessionLight.js" />
      <Compile Include="Assets\Scripts\randomMove.js" />
      <Compile Include="Assets\Scripts\swimControl.js" />
      <Compile Include="Assets\Scripts\takeOffInBoat.js" />

@@ -25,18 +25,16 @@ function possess(target: Vector2) {
    currentTarget = target;
    oldPos = transform.position;
    moving = true;
-   // transform.position.x = target.x;
-   // transform.position.y = target.y;  
     anim = GetComponentInChildren(Animator);    
     anim.SetBool("isPosessing", true);
+    GetComponent("possessionLight").addPL(currentTarget);
 }
 
 function unpossess(target: Vector2) {
     currentTarget = target;
     oldPos = transform.position;
     moving = true;
-    //transform.position.x = target.y;
-    //transform.position.y = target.y;  
     anim = GetComponentInChildren(Animator);
     anim.SetBool("isPosessing", false);
+    GetComponent("possessionLight").removePL();    
 }

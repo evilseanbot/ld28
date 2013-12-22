@@ -83,7 +83,7 @@ function OnMouseDown() {
     
         if (path == 1) {
            Destroy(GameObject.Find("ModeState"));
-           Application.LoadLevel("Ending");
+           Application.LoadLevel("falling");
         }
     
         Destroy(gameObject);
